@@ -1,6 +1,6 @@
-# Sanoa Link Linter
+# Sanoa Links Linter
 
-The _Sanoa Link Linter_ WordPress plugin does two things:
+The _Sanoa Links Linter_ WordPress plugin does two things:
 
 1. Makes all external links open in a new tab with noreferrer noopener attributes.
 1. Makes all internal links open in the same tab.
