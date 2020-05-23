@@ -52,7 +52,7 @@ function activate_sanoa_links_linter() {
  */
 function deactivate_sanoa_links_linter() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-sanoa-links-linter-deactivator.php';
-	Sanoa_Links_Linte_Deactivator::deactivate();
+	Sanoa_Links_Linter_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_sanoa_links_linter' );

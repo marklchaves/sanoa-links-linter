@@ -31,4 +31,4 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 }
 
 // Delete all options.
-delete_option('sanoa-link-linter');
+delete_option('sanoa-links-linter');
