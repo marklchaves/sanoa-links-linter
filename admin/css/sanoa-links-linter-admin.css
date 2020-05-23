@@ -1,0 +1,30 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.settings_page_sanoa-links-linter label > span {
+  font-size: 1.2rem;
+  line-height: 2;
+  width: 10em;
+  display: inline-block;
+}
+
+.settings_page_sanoa-links-linter fieldset {
+  margin-top: 2%;
+}
+
+.settings_page_sanoa-links-linter input:focus {
+  /* To give a little highlight on active elements */
+  background-color: lemonchiffon;
+}
+
+.sanoa-links-linter-subheading {
+  font-size: 0.95em !important;
+  font-style: italic;
+  line-height: 0.95 !important;
+}
+
+#sanoa-links-linter-input-hostname {
+  width: 33%;
+}
