@@ -11,6 +11,12 @@ It’s important to note that having the noreferrer noopener attributes for exte
 
 ---
 
+## Settings Page
+
+![Admin settings page](screengrabs/sanoa-link-linter-settings-hostname-example-1280w.jpg "Admin settings page")
+
+---
+
 ### I'll Drink to That ;-)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D7YARD)
