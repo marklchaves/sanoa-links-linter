@@ -35,7 +35,7 @@ Incorrect: `https://balistreetphotographer.com`
 
 ![Site address setting](screengrabs/sanoa-link-linter-wordpress-site-address-1280w.jpg "Site address setting")
 
-The SLL's default hostname setting comes from the domain name in the WordPress site URL setting. If SLL finds a link in a page/post that has a different hostname, it will be treated as an external link. Otherwise, it's treated as an internal link.
+If SLL finds a link in a page/post that has a different hostname, it will be treated as an external link. Otherwise, it's treated as an internal link. The default hostname setting comes from the domain name in the WordPress site URL setting. 
 
 ---
 
