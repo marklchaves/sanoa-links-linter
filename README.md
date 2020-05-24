@@ -1,4 +1,4 @@
-# Sanoa Links Linter
+# Sanoa Links Linter (SLL)
 
 The _Sanoa Links Linter_ WordPress plugin does two things:
 
@@ -7,13 +7,13 @@ The _Sanoa Links Linter_ WordPress plugin does two things:
 
 This is useful if you’re a web developer or site owner that wants all site links to open the same way.
 
-It’s important to note that having the _noreferrer noopener_ attributes for external links is a [safe practice](https://www.wpbeginner.com/beginners-guide/what-is-relnoopener-in-wordpress-explained/). Since version 5.1, WordPress automatically adds these attributes for all external links.
+It’s important to note that having the _noreferrer noopener_ attributes for external links is a [safe practice](https://www.wpbeginner.com/beginners-guide/what-is-relnoopener-in-wordpress-explained/). Since version 5.1, WordPress automatically adds these attributes for all links that open in a new tab.
 
 ---
 
 ## Usage
 
-By default, the **Hostname** setting on admin settings page is set to the hostname from the **Site Address**. The **Hostname** setting is how the linter plugin know what are considered internal and external links. 
+By default, the **Hostname** setting on admin settings page is set to the hostname from the **Site Address**. The **Hostname** setting is how the linter plugin knows what are considered internal and external links. 
 
 If the _domain_ of a link matches the **Hostname** setting, then it's an internal link. The link will open in the same tab.
 
@@ -32,6 +32,10 @@ Incorrect: `https://balistreetphotographer.com`
 ![Admin settings page](screengrabs/sanoa-link-linter-settings-hostname-example-1280w.jpg "Admin settings page")
 
 **Note**: No `https://` is in the hostname.
+
+![Site address setting](screengrabs/sanoa-link-linter-wordpress-site-address-1280w.jpg "Site address setting")
+
+The SLL's default hostname setting comes from the domain name in the WordPress site URL setting. If SLL finds a link in a page/post that has a different hostname, it will be treated as an external link. Otherwise, it's treated as an internal link.
 
 ---
 
