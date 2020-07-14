@@ -1,15 +1,24 @@
-let currHostname = php_vars.input_hostname ? php_vars.input_hostname : window.location.hostname;
+(function () {
+  "use strict";
 
-// DEBUG
-//console.log('currHostname = ' + currHostname);
+  console.info('Sanoa Links Linter running ...');
 
-let links = document.links;
-for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
-  if (links[i].hostname !== currHostname) {
-    links[i].target = '_blank';
-    links[i].rel = 'noreferrer noopener';
-  } else {
-    links[i].target = '_self';
-    links[i].removeAttribute('rel');
+  /**
+   * Sanoa Links Linter main JS Function
+   */
+
+  let currHostname = php_vars.input_hostname
+    ? php_vars.input_hostname
+    : window.location.hostname;
+
+  let links = document.links;
+  for (let i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname !== currHostname) {
+      links[i].target = "_blank";
+      links[i].rel = "noreferrer noopener";
+    } else {
+      links[i].target = "_self";
+      links[i].removeAttribute("rel");
+    }
   }
-}
+})();

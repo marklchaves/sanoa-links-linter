@@ -70,7 +70,7 @@ class sanoa_links_linter {
 		if ( defined( 'SANOA_LINKS_LINTER_VERSION' ) ) {
 			$this->version = SANOA_LINKS_LINTER_VERSION;
 		} else {
-			$this->version = '1.0.0';
+			$this->version = '1.0.1';
 		}
 		$this->plugin_name = 'sanoa-links-linter';
 
